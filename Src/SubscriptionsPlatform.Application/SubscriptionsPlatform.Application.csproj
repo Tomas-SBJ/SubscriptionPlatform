@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="OneOf" Version="3.0.271" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Services\User\Update\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\SubscriptionsPlatform.Domain\SubscriptionsPlatform.Domain.csproj" />
+    </ItemGroup>
+
+</Project>
